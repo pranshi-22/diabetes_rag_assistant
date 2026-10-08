@@ -1,0 +1,28 @@
+{
+    "risk_probability": 0.00016677947132848203,
+    "risk_percentage": 0.016677947132848203,
+    "risk_level": "Low",
+    "shap_factors": [
+        {
+            "feature": "num__blood_glucose_level",
+            "shap_value": -5.168938636779785
+        },
+        {
+            "feature": "num__HbA1c_level",
+            "shap_value": -0.41733017563819885
+        },
+        {
+            "feature": "num__bmi",
+            "shap_value": -0.34394922852516174
+        },
+        {
+            "feature": "num__age",
+            "shap_value": -0.18310119211673737
+        },
+        {
+            "feature": "cat__gender_Male",
+            "shap_value": -0.0786217600107193
+        }
+    ],
+    "disclaimer": "This is a machine-learning risk assessment and not a medical diagnosis."
+}

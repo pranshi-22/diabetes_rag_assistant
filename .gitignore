@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large/generated files
+*.index
+*.pkl
+*.pickle
+*.joblib
+*.bin
+*.pt
+*.pth
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp

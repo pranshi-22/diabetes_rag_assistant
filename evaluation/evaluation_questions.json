@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "question": "What does diabetes mean?",
+        "category": "basic"
+    },
+    {
+        "id": 2,
+        "question": "What are common symptoms of diabetes?",
+        "category": "symptoms"
+    },
+    {
+        "id": 3,
+        "question": "What are the different types of diabetes?",
+        "category": "types"
+    },
+    {
+        "id": 4,
+        "question": "What is HbA1c?",
+        "category": "diagnosis"
+    },
+    {
+        "id": 5,
+        "question": "What is blood glucose?",
+        "category": "diagnosis"
+    },
+    {
+        "id": 6,
+        "question": "What are risk factors for type 2 diabetes?",
+        "category": "risk"
+    },
+    {
+        "id": 7,
+        "question": "How can type 2 diabetes be prevented?",
+        "category": "prevention"
+    },
+    {
+        "id": 8,
+        "question": "What are some ways to manage diabetes?",
+        "category": "management"
+    },
+    {
+        "id": 9,
+        "question": "What are common diabetes medicines?",
+        "category": "medication"
+    },
+    {
+        "id": 10,
+        "question": "What is insulin?",
+        "category": "medication"
+    },
+    {
+        "id": 11,
+        "question": "What happens when blood glucose is too low?",
+        "category": "safety"
+    },
+    {
+        "id": 12,
+        "question": "Can diabetes cause health problems?",
+        "category": "complications"
+    }
+]

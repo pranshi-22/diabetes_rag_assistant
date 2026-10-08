@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "question": "What does diabetes mean?",
+        "category": "basic",
+        "retrieval_count": 5,
+        "average_overlap": 0.5,
+        "top_overlap": 0.75,
+        "top_source": "Diabetes Overview - All Content - NIDDK_chunks",
+        "top_chunk": "1",
+        "top_score": 1.2984
+    },
+    {
+        "id": 2,
+        "question": "What are common symptoms of diabetes?",
+        "category": "symptoms",
+        "retrieval_count": 5,
+        "average_overlap": 0.95,
+        "top_overlap": 1.0,
+        "top_source": "Diabetes Overview - All Content - NIDDK_chunks",
+        "top_chunk": "3",
+        "top_score": 3.8702
+    },
+    {
+        "id": 3,
+        "question": "What are the different types of diabetes?",
+        "category": "types",
+        "retrieval_count": 5,
+        "average_overlap": 0.75,
+        "top_overlap": 1.0,
+        "top_source": "Diabetes Basics _ Diabetes _ CDC_chunks",
+        "top_chunk": "1",
+        "top_score": 2.6284
+    },
+    {
+        "id": 4,
+        "question": "What is HbA1c?",
+        "category": "diagnosis",
+        "retrieval_count": 5,
+        "average_overlap": 1.0,
+        "top_overlap": 1.0,
+        "top_source": "Diabetes Overview - All Content - NIDDK_chunks",
+        "top_chunk": "16",
+        "top_score": -5.1442
+    },
+    {
+        "id": 5,
+        "question": "What is blood glucose?",
+        "category": "diagnosis",
+        "retrieval_count": 5,
+        "average_overlap": 0.8667,
+        "top_overlap": 1.0,
+        "top_source": "Diabetes Overview - All Content - NIDDK_chunks",
+        "top_chunk": "1",
+        "top_score": 0.4743
+    },
+    {
+        "id": 6,
+        "question": "What are risk factors for type 2 diabetes?",
+        "category": "risk",
+        "retrieval_count": 5,
+        "average_overlap": 0.88,
+        "top_overlap": 1.0,
+        "top_source": "Diabetes Overview - All Content - NIDDK_chunks",
+        "top_chunk": "1",
+        "top_score": 5.7012
+    },
+    {
+        "id": 7,
+        "question": "How can type 2 diabetes be prevented?",
+        "category": "prevention",
+        "retrieval_count": 5,
+        "average_overlap": 0.6667,
+        "top_overlap": 0.6667,
+        "top_source": "Diabetes Overview - All Content - NIDDK_chunks",
+        "top_chunk": "1",
+        "top_score": 5.2468
+    },
+    {
+        "id": 8,
+        "question": "What are some ways to manage diabetes?",
+        "category": "management",
+        "retrieval_count": 5,
+        "average_overlap": 0.8,
+        "top_overlap": 1.0,
+        "top_source": "Diabetes Overview - All Content - NIDDK_chunks",
+        "top_chunk": "37",
+        "top_score": 5.2616
+    },
+    {
+        "id": 9,
+        "question": "What are common diabetes medicines?",
+        "category": "medication",
+        "retrieval_count": 5,
+        "average_overlap": 0.8,
+        "top_overlap": 1.0,
+        "top_source": "Diabetes Overview - All Content - NIDDK_chunks",
+        "top_chunk": "31",
+        "top_score": 0.5474
+    },
+    {
+        "id": 10,
+        "question": "What is insulin?",
+        "category": "medication",
+        "retrieval_count": 5,
+        "average_overlap": 0.8,
+        "top_overlap": 1.0,
+        "top_source": "Diabetes Overview - All Content - NIDDK_chunks",
+        "top_chunk": "1",
+        "top_score": -0.1262
+    },
+    {
+        "id": 11,
+        "question": "What happens when blood glucose is too low?",
+        "category": "safety",
+        "retrieval_count": 5,
+        "average_overlap": 0.72,
+        "top_overlap": 0.8,
+        "top_source": "Diabetes Overview - All Content - NIDDK_chunks",
+        "top_chunk": "22",
+        "top_score": 2.9275
+    },
+    {
+        "id": 12,
+        "question": "Can diabetes cause health problems?",
+        "category": "complications",
+        "retrieval_count": 5,
+        "average_overlap": 0.85,
+        "top_overlap": 1.0,
+        "top_source": "Diabetes Overview - All Content - NIDDK_chunks",
+        "top_chunk": "1",
+        "top_score": 1.4284
+    }
+]

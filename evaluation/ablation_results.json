@@ -1,0 +1,18 @@
+{
+    "baseline": {
+        "experiment": "A: Semantic Retrieval Only",
+        "average_top1_overlap": 0.686111111111111,
+        "average_document_overlap": 0.7677777777777779,
+        "mrr": 0.9583333333333334,
+        "question_count": 12
+    },
+    "reranked": {
+        "experiment": "B: Semantic Retrieval + Cross-Encoder Reranker",
+        "average_top1_overlap": 0.7972222222222222,
+        "average_document_overlap": 0.7986111111111112,
+        "mrr": 1.0,
+        "question_count": 12
+    },
+    "document_overlap_improvement_percent": 4.015918958031829,
+    "mrr_improvement_percent": 4.347826086956517
+}

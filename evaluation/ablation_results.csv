@@ -1,0 +1,3 @@
+experiment,average_top1_overlap,average_document_overlap,mrr,question_count
+A: Semantic Retrieval Only,0.686111111111111,0.7677777777777779,0.9583333333333334,12
+B: Semantic Retrieval + Cross-Encoder Reranker,0.7972222222222222,0.7986111111111112,1.0,12

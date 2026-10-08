@@ -1,0 +1,71 @@
+{
+    "project_title": "Retrieval-Augmented Conversational Assistant for Diabetes",
+    "phase_1": {
+        "components": [
+            "XGBoost",
+            "SHAP",
+            "Input Validation",
+            "Risk Assessment"
+        ]
+    },
+    "phase_2": {
+        "components": [
+            "Trusted Knowledge Base",
+            "FAISS Semantic Retrieval",
+            "Cross-Encoder Reranking",
+            "Safety Layer",
+            "Risk Context",
+            "Grounded Response Generation",
+            "Streamlit Interface"
+        ]
+    },
+    "machine_learning_results": [
+        {
+            "Model": "Logistic Regression",
+            "Accuracy": 0.9605,
+            "Precision": 0.8593,
+            "Recall": 0.6394,
+            "F1": 0.7332,
+            "ROC-AUC": 0.9625
+        },
+        {
+            "Model": "Random Forest",
+            "Accuracy": 0.9582,
+            "Precision": 0.7568,
+            "Recall": 0.7488,
+            "F1": 0.7528,
+            "ROC-AUC": 0.9689
+        },
+        {
+            "Model": "XGBoost",
+            "Accuracy": 0.9723,
+            "Precision": 0.9767,
+            "Recall": 0.6906,
+            "F1": 0.8091,
+            "ROC-AUC": 0.9799
+        }
+    ],
+    "rag_ablation_results": {
+        "baseline": {
+            "experiment": "A: Semantic Retrieval Only",
+            "average_top1_overlap": 0.686111111111111,
+            "average_document_overlap": 0.7677777777777779,
+            "mrr": 0.9583333333333334,
+            "question_count": 12
+        },
+        "reranked": {
+            "experiment": "B: Semantic Retrieval + Cross-Encoder Reranker",
+            "average_top1_overlap": 0.7972222222222222,
+            "average_document_overlap": 0.7986111111111112,
+            "mrr": 1.0,
+            "question_count": 12
+        },
+        "document_overlap_improvement_percent": 4.015918958031829,
+        "mrr_improvement_percent": 4.347826086956517
+    },
+    "retrieval_evaluation": {
+        "question_count": 12,
+        "average_keyword_overlap": 0.7986166666666666,
+        "average_top_document_overlap": 0.9347249999999999
+    }
+}
